@@ -4,7 +4,7 @@ h1 {
     left: 400px;
     position: relative;
     font-size: 20px;
-    color: rgb(201, 143, 35);
+    color: rgb(90, 163, 223);
 }
 /* Second CSS rule */
 Selector {
@@ -13,7 +13,7 @@ Selector {
 .background {
     display: block;
     position: relative;
-    background-color: rgb(255, 211, 161);
+    background-color: rgb(173, 225, 255);
     }
 
  img {
