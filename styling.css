@@ -10,6 +10,17 @@ h1 {
     font-size: 20px;
 }
 
+h2 {
+    font-family: 'League Script', cursive;
+    margin-top: 100px;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+}
+
+font-family: 'League Script', cursive;
+
 p {
     font-family: 'Times New Roman';
     left: 100px;
