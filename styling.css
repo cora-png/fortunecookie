@@ -37,9 +37,8 @@ Selector {
 
     nav {
         position: fixed;
-        text-decoration-color: linen;
+        color: linen;
         text-decoration-line: none;
-        text-decoration-style: wavy;
         top: 0;
         left: 0;
         width: 100%;
