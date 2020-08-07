@@ -1,3 +1,3 @@
 # fortunecookie
 website project
-hi i am trying my damn best
+book reviews, but aim lower
