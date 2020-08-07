@@ -2,7 +2,7 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
     left: 100px;
-    margin-right: 300px;
+    margin-right: 250px;
     color: rgb(63, 147, 216);
     text-align: center;
     position: relative;
@@ -12,9 +12,8 @@ h1 {
 p {
     font-family: 'Times New Roman';
     left: 100px;
-    margin-right: 300px;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
 }
 /* Second CSS rule */
 Selector {
