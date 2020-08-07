@@ -33,3 +33,18 @@ Selector {
         left: 40%;
         position: relative;
     }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: .75rem;
+        background-color: rgb(56, 136, 202);
+        z-index: 1000000000;
+    } 
+    
+    nav li {
+        display: inline;
+        margin-right: 1rem;
+    }
