@@ -25,9 +25,10 @@ font-family: 'League Script', cursive;
 
 p {
     font-family: 'Times New Roman';
-    left: 100px;
+    margin-left: 100px;
     text-align: center;
     font-size: 18px;
+    color: aliceblue; 
 }
 /* Second CSS rule */
 Selector {
