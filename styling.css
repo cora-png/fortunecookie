@@ -6,7 +6,15 @@ h1 {
     color: rgb(63, 147, 216);
     text-align: center;
     position: relative;
-    font-size: 20px;s
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Times New Roman';
+    left: 100px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 12px;
 }
 /* Second CSS rule */
 Selector {
