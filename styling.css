@@ -16,7 +16,6 @@ h2 {
     text-align: center;
     position: relative;
     font-size: 60px;
-    padding: 10px;
 }
 
 p {
@@ -40,6 +39,7 @@ Selector {
  img {
         float: none;
         margin-top: 50px;
+        left: 100px;
         width: 850px;
         height: 431px;
         object-fit: cover;
