@@ -37,9 +37,7 @@ Selector {
     }
 
  img {
-        float: none;
-        margin-top: 50px;
-        left: 25%;
+        float: inline-start;
         width: 850px;
         height: 431px;
         object-fit: cover;
