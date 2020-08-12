@@ -42,7 +42,7 @@ Selector {
         width: max-content;
         height: max-content;
         object-fit: cover;
-        left: 40%;
+        align-items: center;
         position: relative;
     }
 
