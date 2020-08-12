@@ -2,7 +2,7 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
     margin-top: 2px;
-    color: rgb(82, 148, 202);
+    color: rgb(92, 146, 207);
     text-align: center;
     position: relative;
     font-size: 20px;
@@ -55,7 +55,7 @@ Selector {
         left: 0;
         width: 100%;
         padding: .75rem;
-        background-color: rgb(82, 148, 202);
+        background-color: rgb(92, 146, 207);
         z-index: 1000000000;
     } 
     
