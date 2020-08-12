@@ -43,7 +43,6 @@ Selector {
         width: 850px;
         height: 431px;
         object-fit: cover;
-        text-align: center;
         position: relative;
     }
 
