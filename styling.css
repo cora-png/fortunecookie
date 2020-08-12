@@ -39,7 +39,7 @@ Selector {
  img {
         float: none;
         margin-top: 50px;
-        left: 100px;
+        left: 25%;
         width: 850px;
         height: 431px;
         object-fit: cover;
