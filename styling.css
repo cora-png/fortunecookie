@@ -1,7 +1,8 @@
 /* Template for a CSS rule */
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     color: rgb(92, 146, 207);
     text-align: center;
     position: relative;
