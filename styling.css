@@ -42,6 +42,7 @@ Selector {
         height: 431px;
         object-fit: cover;
         position: relative;
+        margin-top: 10px;
     }
 
     nav {
