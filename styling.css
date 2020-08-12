@@ -39,8 +39,8 @@ Selector {
 
  img {
         float: none;
-        width: 1000px;
-        height: 507px;
+        width: 750px;
+        height: 380px;
         object-fit: cover;
         align-items: center;
         position: relative;
