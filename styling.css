@@ -25,6 +25,8 @@ p {
     position: relative;
     font-size: 18px;
     color: aliceblue; 
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 /* Second CSS rule */
