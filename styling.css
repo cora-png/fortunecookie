@@ -39,10 +39,20 @@ Selector {
     background-color: rgb(166, 208, 255);
     }
 
- img {
+ .logo {
         float: none;
         width: 850px;
         height: 431px;
+        object-fit: cover;
+        position: relative;
+        margin-top: 50px;
+        left: 200px;
+    }
+
+ .logo2 {
+        float: none;
+        width: 600px;
+        height: 299px;
         object-fit: cover;
         position: relative;
         margin-top: 50px;
@@ -64,4 +74,10 @@ Selector {
     nav li {
         display: inline;
         margin-right: 1rem;
+    }
+
+    .bookcovers {
+        position: relative;
+        width: 100px;
+        height: 200px;
     }
