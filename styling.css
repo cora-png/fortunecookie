@@ -3,7 +3,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     margin-left: 80px;
     margin-right: 80px;
-    color: rgb(92, 146, 207);
+    color:rgb(72, 125, 194);
     text-align: center;
     position: relative;
     font-size: 20px;
@@ -13,7 +13,7 @@ h1 {
 h2 {
     font-family: 'League Script', cursive;
     margin-top: 150px;
-    color: rgb(92, 146, 207);
+    color:rgb(91, 142, 209);
     text-align: center;
     position: relative;
     font-size: 60px;
@@ -29,6 +29,16 @@ p {
     margin-right: 80px;
 }
 
+.aboutp {
+    font-family: 'Times New Roman';
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    color: rgb(84, 132, 196); 
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
 /* Second CSS rule */
 Selector {
     property: value;}
@@ -36,8 +46,14 @@ Selector {
 .background {
     display: block;
     position: relative;
-    background-color: rgb(166, 208, 255);
+    background-color: rgb(182, 214, 255);
     }
+
+.backgroundabout {
+        display: block;
+        position: relative;
+        background-color: rgb(199, 223, 255);
+        }
 
 .logo {
         float: none;
@@ -55,8 +71,8 @@ Selector {
         height: 299px;
         object-fit: cover;
         position: relative;
-        margin-top: 50px;
-        left: 300px;
+        margin-top: 100px;
+        left: 325px;
     }
 
     nav {
@@ -67,13 +83,16 @@ Selector {
         left: 0;
         width: 100%;
         padding: .75rem;
-        background-color: rgb(92, 146, 207);
+        background-color: rgb(118, 168, 233);
         z-index: 1000000000;
+        box-shadow: 0px 1px 7px  rgb(61, 122, 201);
     } 
 
     .navitem {
         color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
         text-decoration: none;
+        font-size: 20px;
     }
     
     nav li {
@@ -85,17 +104,31 @@ Selector {
         position: relative;
         width: 240px;
         height: 390px;
+        margin-top: 150px;
     }
 
     .banner {
-        width: 525px;
-        height: 270px;
-        right: 10px;
+        width: 350px;
+        height: 98px;
+        padding-left: 150px;
+        margin-top: 110px;
     }
 
     .flex-container {
-        padding: 100px;
+        padding: 10px;
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .reviewtext {
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .author {
+        left: 76px;
+        font-size: 18px;
+        font-style: italic;
+        color:rgb(118, 168, 233);
     }
