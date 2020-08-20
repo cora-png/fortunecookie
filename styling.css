@@ -78,9 +78,9 @@ Selector {
     nav {
         position: fixed;
         color: linen;
+        top: 0px;
+        left: 0px;
         text-decoration-line: none;
-        top: 0;
-        left: 0;
         width: 100%;
         padding: .75rem;
         background-color: rgb(118, 168, 233);
