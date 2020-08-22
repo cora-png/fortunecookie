@@ -1,9 +1,10 @@
 /* Template for a CSS rule */
+/* Template for a CSS rule */
 h1 {
     font-family: 'Times New Roman', Times, serif;
     margin-left: 80px;
     margin-right: 80px;
-    color:rgb(72, 125, 194);
+    color:rgb(93, 139, 204);
     text-align: center;
     position: relative;
     font-size: 20px;
@@ -13,66 +14,111 @@ h1 {
 h2 {
     font-family: 'League Script', cursive;
     margin-top: 150px;
-    color:rgb(91, 142, 209);
+    color:rgb(93, 139, 204);
     text-align: center;
     position: relative;
     font-size: 60px;
 }
 
+.main {
+    margin-right: 20px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 50px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: rgb(175, 206, 247); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 79px;
+  }
+
+  .sidenav a {
+    padding-left: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(121, 164, 223);
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: rgb(66, 111, 194);
+  }
+
 p {
     font-family: 'Times New Roman';
     text-align: center;
     position: relative;
-    font-size: 18px;
+    font-size: 20px;
     color: aliceblue; 
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
+.alphabet {
+    font-family: 'Times New Roman';
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    color: rgb(93, 139, 204); 
+    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
 .aboutp {
     font-family: 'Times New Roman';
     text-align: center;
     position: relative;
     font-size: 24px;
-    color: rgb(84, 132, 196); 
+    color: aliceblue; 
     margin-left: 180px;
     margin-right: 180px;
 }
 
-/* Second CSS rule */
-Selector {
-    property: value;}
-
 .background {
     display: block;
     position: relative;
-    background-color: rgb(182, 214, 255);
+    background-color: rgb(175, 206, 247);
     }
 
 .backgroundabout {
         display: block;
         position: relative;
-        background-color: rgb(199, 223, 255);
+        background: linear-gradient(to bottom, rgb(50, 79, 131) 50%, rgb(66, 111, 194) 100%);
         }
+
+
+.openbookabout {
+    float: none;
+    width: 100px;
+    height: 100px;
+    margin-left: 576px;
+    margin-top: 25px;
+}
 
 .logo {
         float: none;
-        width: 850px;
-        height: 431px;
+        width: 900px;
+        height: 438px;
         object-fit: cover;
         position: relative;
         margin-top: 100px;
-        left: 200px;
+        left: 180px;
     }
 
  .logo2 {
         float: none;
-        width: 600px;
-        height: 299px;
+        width: 800px;
+        height: 370px;
         object-fit: cover;
         position: relative;
-        margin-top: 100px;
-        left: 325px;
+        margin-top: 20px;
+        left: 215px;
     }
 
     nav {
@@ -83,9 +129,22 @@ Selector {
         text-decoration-line: none;
         width: 100%;
         padding: .75rem;
-        background-color: rgb(118, 168, 233);
+        background-color: rgb(121, 164, 223);
         z-index: 1000000000;
         box-shadow: 0px 1px 7px  rgb(61, 122, 201);
+    } 
+
+    .aboutnav {
+        position: fixed;
+        color: linen;
+        top: 0px;
+        left: 0px;
+        text-decoration-line: none;
+        width: 100%;
+        padding: .75rem;
+        background-color: rgb(121, 164, 223);
+        z-index: 1000000000;
+        box-shadow: 0px 1px 7px rgb(23, 44, 83);
     } 
 
     .navitem {
@@ -94,6 +153,10 @@ Selector {
         text-decoration: none;
         font-size: 20px;
     }
+
+    .navitem:hover {
+        color: rgb(32, 74, 153);
+      }
     
     nav li {
         display: inline;
@@ -111,7 +174,7 @@ Selector {
         width: 350px;
         height: 98px;
         padding-left: 150px;
-        margin-top: 110px;
+        margin-top: 50px;
     }
 
     .flex-container {
@@ -130,5 +193,5 @@ Selector {
         left: 76px;
         font-size: 18px;
         font-style: italic;
-        color:rgb(118, 168, 233);
+        color:rgb(93, 139, 204);
     }
