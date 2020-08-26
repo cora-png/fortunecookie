@@ -108,7 +108,8 @@ p {
     width: 100px;
     height: 100px;
     margin-left: 576px;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .logo {
@@ -175,20 +176,21 @@ p {
 
     .bookcovers {
         position: relative;
-        width: 240px;
-        height: 390px;
-        margin-top: 150px;
+        width: 290px;
+        height: 440px;
+        margin-top: 100px;
     }
 
     .banner {
         width: 350px;
         height: 98px;
-        padding-left: 150px;
+        padding-left: 175px;
         margin-top: 50px;
     }
 
     .flex-container {
         padding: 10px;
+        margin-left: 160px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -197,11 +199,16 @@ p {
     .reviewtext {
         text-align: left;
         font-size: 16px;
+        margin-right: 150px;
+        background-color: hsla(216, 72%, 76%, 0.603);
+        border: 5px solid;
+        border-radius: 8px;
+        border-color: hsla(216, 72%, 76%, 0.1);
     }
 
     .author {
-        left: 76px;
         font-size: 18px;
         font-style: italic;
         color:rgb(93, 139, 204);
+        margin-left: 65px;
     }
