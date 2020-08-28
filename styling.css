@@ -209,10 +209,10 @@ p {
         text-align: left;
         font-size: 16px;
         margin-right: 150px;
-        background-color: hsla(216, 81%, 60%, 0.493);
+        background-color: hsla(216, 73%, 65%, 0.493);
         border: 5px solid;
         border-radius: 8px;
-        border-color: hsla(216, 83%, 55%, 0.041);
+        border-color: hsla(216, 84%, 66%, 0.041);
     }
 
     .author {
