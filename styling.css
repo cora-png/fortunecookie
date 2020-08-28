@@ -41,10 +41,9 @@ body {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
-    background-color: 	rgb(178, 207, 248); /* Black */
+    background-color: 	rgba(178, 207, 248, 0.5); /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 50px;
-    opacity: .5;
   }
 
   .sidenav a {
@@ -52,22 +51,32 @@ body {
     margin-top: 6px;
     text-decoration: none;
     font-size: 20px;
-    color: rgb(66, 111, 194);
+    color: rgb(86, 121, 185);
     display: block;
   }
 
   .sidenav a:hover {
-    color: rgb(0, 26, 75);
+    color: aliceblue;
   }
 
 p {
     font-family: 'Times New Roman';
     text-align: center;
     position: relative;
-    font-size: 20px;
     color: aliceblue; 
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.valid {
+    font-family: 'Times New Roman';
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    color: aliceblue; 
+    margin-left: 120px;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .alphabet {
@@ -75,7 +84,7 @@ p {
     text-align: center;
     position: relative;
     font-size: 40px;
-    color: rgb(93, 139, 204); 
+    color:  rgb(86, 121, 185); 
     font-style: italic;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -119,7 +128,7 @@ p {
         object-fit: cover;
         position: relative;
         margin-top: 75px;
-        left: 180px;
+        left: 170px;
     }
 
  .logo2 {
@@ -185,7 +194,7 @@ p {
         width: 350px;
         height: 98px;
         padding-left: 175px;
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
     .flex-container {
