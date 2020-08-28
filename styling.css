@@ -209,15 +209,15 @@ p {
         text-align: left;
         font-size: 16px;
         margin-right: 150px;
-        background-color: hsla(216, 72%, 76%, 0.603);
+        background-color: hsla(216, 81%, 60%, 0.493);
         border: 5px solid;
         border-radius: 8px;
-        border-color: hsla(216, 72%, 76%, 0.1);
+        border-color: hsla(216, 83%, 55%, 0.041);
     }
 
     .author {
         font-size: 18px;
         font-style: italic;
-        color:rgb(93, 139, 204);
+        color:rgb(78, 121, 180);
         margin-left: 65px;
     }
